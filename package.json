@@ -1,0 +1,27 @@
+{
+    "name": "markdown-it-img-src-render",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "rollup -c rollup.config.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@rollup/plugin-commonjs": "^25.0.3",
+        "@rollup/plugin-json": "^6.0.0",
+        "@rollup/plugin-node-resolve": "^15.1.0",
+        "@rollup/plugin-terser": "^0.4.3",
+        "@rollup/plugin-typescript": "^11.1.2",
+        "@types/node": "^20.4.2",
+        "rollup": "^3.26.3",
+        "tslib": "^2.6.0"
+    },
+    "dependencies": {
+        "@types/markdown-it": "^12.2.3",
+        "markdown-it": "^13.0.1"
+    }
+}
