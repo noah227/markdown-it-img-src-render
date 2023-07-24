@@ -1,13 +1,21 @@
 {
     "name": "markdown-it-img-src-render",
-    "version": "1.0.0",
+    "version": "0.1.1",
     "description": "",
-    "main": "index.js",
+    "main": "dist/index.js",
+    "typings": "dist/index.d.ts",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "rollup -c rollup.config.js"
     },
-    "keywords": [],
+    "keywords": [
+        "markdown-it", "img", "image", "src"
+    ],
+    "files": [
+        "dist",
+        "package.json",
+        "README.md"
+    ],
     "author": "",
     "license": "ISC",
     "devDependencies": {

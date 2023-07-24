@@ -1,6 +1,6 @@
 # markdown-it-img-src-render
 
-Render img src as what you like, support both nodejs and browser.
+> Render img src the way you want.
 
 ## Example
 

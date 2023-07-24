@@ -31,7 +31,7 @@ const exportList = [
         "./src/index.ts",
         {
             file: "./dist/index.js",
-            format: "es",
+            format: "cjs",
             sourcemap: true
         },
         {
@@ -42,23 +42,11 @@ const exportList = [
         "./src/index.ts",
         {
             file: "./dist/index.min.js",
-            format: "es",
+            format: "cjs",
             sourcemap: false,
         },
         {
             useTerser: true
-        }
-    ],
-    [
-        "./src/index.ts",
-        {
-            file: "./dist/index.cjs.js",
-            format: "cjs",
-            sourcemap: false,
-            exports: "auto"
-        },
-        {
-            useTerser: false
         }
     ]
 ]
