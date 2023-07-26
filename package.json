@@ -1,6 +1,6 @@
 {
     "name": "markdown-it-img-src-render",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "description": "Plugin for markdown-it, render image src the way you want",
     "main": "dist/index.js",
     "typings": "dist/index.d.ts",
@@ -27,6 +27,7 @@
         "@rollup/plugin-node-resolve": "^15.1.0",
         "@rollup/plugin-terser": "^0.4.3",
         "@rollup/plugin-typescript": "^11.1.2",
+        "@types/markdown-it": "^12.2.3",
         "@types/node": "^20.4.2",
         "rollup": "^3.26.3",
         "tslib": "^2.6.0"
