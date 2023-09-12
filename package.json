@@ -1,6 +1,6 @@
 {
     "name": "markdown-it-img-src-render",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "description": "Plugin for markdown-it, render image src the way you want",
     "main": "dist/index.js",
     "typings": "dist/index.d.ts",
