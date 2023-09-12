@@ -9,7 +9,7 @@ const md = require("markdown-it")()
 
 md.use(require("markdown-it-img-src-render", {
     render(src: string){
-        return "file:///E:/Pictures/" + "src"
+        return "file:///E:/Pictures/" + src
     }
 }))
 ```
